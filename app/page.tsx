@@ -1,9 +1,13 @@
-import Image from "next/image";
+import type { NextPage } from 'next';
+import Header from "@/app/ui/header/header"
 import styles from "./page.module.css";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
-    <main>
+    <main className={styles.main}>
+      <Header />
     </main>
   );
 }
+
+export default Home; 
