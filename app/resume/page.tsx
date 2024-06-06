@@ -1,4 +1,4 @@
-import Header from '@/app/ui/header/header.jsx';
+import Header from '@/app/ui/header/header';
 
 const Resume = () => {
     return (
