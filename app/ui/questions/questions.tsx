@@ -1,7 +1,7 @@
 import styles from './questions.module.css';
 
 const Questions = {
-  're you currently employed?': 'I am currently emplyed as a freelancer.',
+  'Are you currently employed?': 'I am currently emplyed as a freelancer.',
   'What motivated you to become a web developer?' : 'My passion for solving difficult problems and being creative. I love creating functional and visual appealing products.',
   'What programming languages are you familiar with' : "TypeScript, Java, C++, Matlab.",
   'How do you handle errors in JavaScript?' : 'I use try-catch statements and custom throw errors.',
